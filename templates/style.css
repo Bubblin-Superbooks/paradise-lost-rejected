@@ -104,9 +104,19 @@ code {
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
   word-wrap: break-word;
-  margin: 0 auto calc( 4 * (150vh *(1115/1443))/100 * 7/5);
-  font-size: 90%;
+  /*margin: 0 auto calc( 4 * (150vh *(1115/1443))/100 * 7/5);*/
+  margin: 0;
   text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  font-synthesis: none;
+  font-stretch: ultra-condensed;
+  font-variant: no-common-ligatures proportional-nums slashed-zero;
+  font-size: 4vw;
+  line-height: calc(4vw * 1.50);
+  font-kerning: normal;
+  text-rendering: geometricPrecision;
+
 }
 
 h3 {
